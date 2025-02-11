@@ -1,0 +1,15 @@
+{
+  "name": "Kokoro TTS Add-on",
+  "version": "1.0",
+  "slug": "kokoro_tts",
+  "description": "A custom TTS service using Kokoro ONNX.",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64", "armv7", "armhf"],
+  "ports": {
+    "5000/tcp": 5000
+  },
+  "ingress": false,
+  "options": {},
+  "schema": {}
+}
